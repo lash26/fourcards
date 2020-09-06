@@ -1,0 +1,369 @@
+/* Css for four card feature challenge */
+   @media screen and (min-width:270px){/*270px starts here*/
+    h1,h2,p{
+        font-family:'Poppins', sans-serif;
+    }
+    #bold{
+        font-size: x-large;
+        color: rgba(49, 48, 48, 0.551);
+        margin-top: 60px;
+    }
+    h1{
+        font-size: x-large;
+        color:  hsl(234, 12%, 34%);
+    }
+    h2{
+        font-size: large;
+        color:  hsl(234, 12%, 34%);
+    }
+    p{
+        font-weight: 200;
+        color:rgba(49, 48, 48, 0.551);
+    }
+    #supervisor{
+        height: 17%;
+        width: 80%;
+        border-top: 3px solid hsl(180, 62%, 55%);
+        background: white;
+        margin-left:10%;
+        margin-right:10%;
+        padding: 8px;
+        border-radius: 6px;
+        margin-top: 20px;
+        box-shadow: 0px 3px  8px 3px    hsl(229, 6%, 66%);
+    }
+    #team{
+        height: 17%;
+        width: 80%;
+        background: white;
+        margin-left:10%;
+        margin-right:10%;
+        padding: 8px;
+        border-top: 3px solid hsl(0, 78%, 62%); 
+        border-radius: 6px;
+        margin-top: 20px;
+        box-shadow: 0px 3px  8px 3px    hsl(229, 6%, 66%);
+    }
+    
+#karma{
+    height: 17%;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    background: white;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 4px;
+    box-shadow: 0px 3px  8px 3px    hsl(229, 6%, 66%);
+}
+    #calculator{
+        height: 17%;
+        width: 80%;
+        border-top: 3px solid hsl(212, 86%, 64%);
+        background: white;
+        margin-right:10%;
+        margin-left: 10%;
+        padding: 8px;
+        margin-top: 20px;
+        border-radius: 6px;
+        margin-bottom: 60px;
+        box-shadow: 0px 3px  8px 3px    hsl(229, 6%, 66%);
+    }
+    #svg-container{
+        margin-left: 70%;
+        margin-right: 4%;
+        margin-top: 2%;
+    }
+    body{
+        background:rgba(238, 237, 237, 0.803);
+        text-align: center;
+    }
+   }/*270px ends here*/
+
+   @media screen and (min-width:410px) {/*media for 410px starts here*/
+                                 #box{
+                                     height: 35%;
+                                     width: 70%;
+                                     margin-right: 15%;
+                                     margin-left: 15%;
+                                 }
+                                
+                                 #bold ,h1 {
+                                     font-size: xx-large;
+                                 }
+                                 h2{
+                                     font-size: x-large;
+                                 }
+                                 p{
+                                     font-size: 17px;
+                                 }
+}/*media for 410px ends here*/
+
+   @media screen and (min-width:700px){/*700px and above starts here*/
+body{
+    background:rgba(238, 237, 237, 0.803);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+
+#bold{
+    font-size:xx-large;
+    color: rgba(49, 48, 48, 0.551);
+    margin-top: 20px;
+}
+
+h2{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: rgba(49, 48, 48, 0.551);
+}
+
+#supervisor{
+    height: 170px;
+    width: 205px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    background: white;
+    margin-top: 21%;
+    margin-left: -15%;
+    padding: 10px;
+    position: absolute;
+}
+
+#calculator{
+    height: 170px;
+    width: 205px;
+    margin-top: 21%;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    background: white;
+    padding: 8px;
+    position: absolute;
+    margin-left:52%;
+    overflow: hidden;
+}
+
+#team{
+    height: 170px;
+    width: 205px;
+    margin-left:19%;
+    background: white;
+    margin-top: 8%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#karma{
+    height: 170px;
+    width: 205px;
+    margin-left: 19%;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    background: white;
+    position: absolute;
+    margin-top: 280px;
+    margin-bottom:4%;
+}
+
+#svg-container{
+    float: right;
+    margin-right: 4%;
+    margin-top: -10px;
+}
+   }/*end of 700px media*/
+
+   @media screen and (min-width:750px) {/*media for 750px starts here*/
+                           #supervisor{
+                               margin-left:-12% ;
+                           }
+                        #team, #karma {
+                            margin-left: 20.5%;
+                        }
+      }/*750px media ends here*/
+  
+    @media screen and (min-width:800px){/*media for 800 starts here*/
+                                 #supervisor{
+                                     margin-left: -10%;
+                                 }
+                                #team , #karma{
+                                    margin-left: 21.5%;
+                                }
+     }/*media for 800px ends here*/
+                    
+       @media screen and (min-width:850px){/*media for 850px starts here*/
+                         #supervisor{
+                             margin-left: -7%;
+                             height: 180px;
+                             width: 215px;
+                         }
+                        #team , #karma{
+                            margin-left: 23%;
+                            height: 180px;
+                            width: 215px;
+                        }   
+                    #caculator{
+                        height: 180px;
+                        width: 215px;
+                    }   }/*850px media ends here*/
+
+                    @media screen and (min-width:900px){/*900px media starts here*/
+                              #supervisor{
+                                  margin-left: -12%;
+                                  height: 200px;
+                                  width: 250px;
+                              }
+                            #karma ,#team{
+                                margin-left: 20%;
+                                height: 200px;
+                                width: 250px;
+                            }
+                            #karma {
+                                margin-top: 310px;
+                            }
+                        #calculator{
+                            height: 200px;
+                            width: 250px;
+                            margin-left: 51%;
+                        }  }/*900px media ends here*/
+
+       @media screen and (min-width:950px) {/*950 px media starts here*/
+                   #karma{
+                       margin-top:310px;
+                       margin-left: 21%;
+                   }    
+                   #supervisor{
+                       margin-left: -10%;
+                   }
+                   #team{
+                       margin-left: 21%;
+                   }
+            }/*media screen 950 ends here*/
+
+        @media screen and (min-width:1000px) {/*1000px starts here*/
+                    #karma{
+                        margin-top: 340px;
+                        width: 290px;
+                        height: 220px;
+                        margin-left: 20%;
+                    }
+                    #supervisor{
+                        margin-left: -11.5%;
+                        width: 290px;
+                        height: 220px;
+                    }
+                    #calculator {
+                        width: 290px;
+                        height: 220px;
+                        margin-left: 51%;
+                    }
+                    #team{
+                        width: 290px;
+                        height: 220px;
+                        margin-left: 20%;
+                    }
+        }/*1000px media ends here*/
+
+        @media screen and (min-width:1100px){/*media for 1100px starts herer*/
+                               #supervisor{
+                                   margin-left: -8.5%;
+                               }   
+                              #team{
+                                  margin-left: 21.5%;
+                              } 
+                             #karma{
+                                 margin-left: 21.5%;
+                                 margin-top: 360px;
+                             } 
+                            #calculator{
+                                margin-left: 50.5%;
+                            }
+                 }/*media for 1100px ends here*/
+
+
+                @media screen and (min-width:1200px){/*1200px starts here*/
+                                      #team{
+                                          margin-left:23% ;
+                                      } 
+                                    #karma{
+                                        margin-left: 23%;
+                                    }  
+                                    #supervisor{
+                                        margin-left: -4%;
+                                    }
+                                    #calculator{
+                                        margin-left: 49.5%;
+                                    }
+                  }/*media for 1200px ends here*/
+
+                  @media screen and (min-width:1300px){/*1300px starts here*/
+                      #supervisor{
+                          margin-left: 5%;
+                      }
+                      #calculator{
+                          margin-left: 47.5%;
+                      }
+                      #karma{
+                          margin-top:370px ;
+                      }
+                }/*1300px media ends here*/
+
+  @media screen and (min-width:1390px) {/* media for 1390 starts here*/
+    #supervisor{
+        height: 220px;
+        width: 320px;
+        margin-top: 20%;
+        margin-left: -4%;
+        position: absolute;
+    }
+    
+    #calculator{
+        height: 220px;
+        width: 320px;
+        margin-top: 20%;
+        padding: 8px;
+        position: absolute;
+        margin-left:46.5%;
+    }
+    
+    #team{
+        height: 220px;
+        width: 320px;
+        margin-left:21.5%;
+        margin-top: 10%;
+        position: absolute;
+    }
+    
+    #karma{
+        height: 220px;
+        width: 320px;
+        margin-left: 21.5%;
+        position: absolute;
+        margin-top: 420px;
+        margin-bottom:4%;
+    }
+    
+#svg-container{
+    float: right;
+    margin-right: 4%;
+    margin-top: 15px;
+}
+      }/*media for 1390 ends here*/
+
+      @media screen and (min-width:1600px) {/**/
+                #supervisor{
+                    margin-left: 1%;
+                }
+                #team{
+                    margin-left: 24%;
+                } 
+                #karma{
+                    margin-left: 24%;
+                } 
+             }
